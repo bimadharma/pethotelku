@@ -48,6 +48,7 @@ Pastikan perangkat Anda telah menginstal:
    
 2. **Pindahkan folder ke direktori XAMPP dan impor database**
 - Salin folder pethotelku ke dalam direktori htdocs di XAMPP Anda:
+  ```bash
    C:\xampp\htdocs\pethotelku
 - Buka browser dan navigasi ke http://localhost/phpmyadmin
 - Buat database baru dengan nama: db_petservice
@@ -56,10 +57,11 @@ Pastikan perangkat Anda telah menginstal:
 3. **Atur Koneksi database**
 - Buka file config/database.php menggunakan code editor
 - Pastikan konfigurasi koneksi sesuai:
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "db_petservice";
+   ```bash
+   $host = "localhost";
+   $user = "root";
+   $pass = "";
+   $dbname = "db_petservice";
 
 4. **Jalankan proyek**
 Buka browser dan akses:
